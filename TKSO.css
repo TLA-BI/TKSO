@@ -1,3 +1,9 @@
+.customizeView{
+    position: absolute;
+    width: 99%;
+    min-width: 1200px;
+    margin:0 auto;
+}
 .topCatch{
     display: flex;
     width:1200px;
@@ -8,11 +14,11 @@
     width:50%;
 }
 .topCatch div p{
-    text-align: right;
+    text-align: center;
 }
 .slider{
     position: relative;
-    width: 70%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
     margin: 0 auto;
@@ -24,16 +30,17 @@
 #wrap{
     width: 1200px;
     margin:0 auto;
-    
+   
 }
 .main{
+    
     width:100%;
     margin:0 auto;
 }
 @media screen{ /*and (max-width: 2000px){ */
     .slider{
         width: 100%;
-        height: 100%px;
+        height: 100%;
     }
     .img-01, .img-02, .img-03{
         position: absolute;
@@ -178,7 +185,6 @@
     width:100%;
     margin:0 auto;
     background-color: white;
-    
 }
 
 .link1 table tr td{
@@ -186,10 +192,8 @@
     width:50%;
     height:100%;
     overflow: hidden;
-    
-    
+    position: relative;
     /* height:330px; */
-   
 }
 
 .link1 table td img{
@@ -199,22 +203,27 @@
 }
 
 .item{
-    position:relative;
+    /* position:relative; */
     width:100%;
-   
+    height:100%;
 }
 .ph{
     position: absolute;
     top:0px;
     left:0px;
     
+    
+}
+.acc {
+    position: absolute;
+    top:0px;
+    left:0px;
 }
 .link1 .item .ttl{
     position: absolute;
     top:20px;
     left:45px;
     color:white;
-    
 }
 .item .en {
     display: block;                  /* または inline-block */
@@ -230,16 +239,19 @@
     position:absolute;
     right:45px;
     bottom:20px;
-    color:white;
+    color:rgb(255, 255, 255);
+    
 }
 .item a{
     text-decoration: none;
     display: block;
     width: 100%;
     height:330px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     
 }
+
+
 .item h3{
     z-index: 1;
 }
@@ -326,8 +338,8 @@
     margin:0 auto;
 }
 .box2>.contents_area{
-    width: 40%;
-    padding: 48px 40px;
+    width: 45%;
+    padding: 40px 20px;
     background-color: #fff;
 }
 .box2>.contents_area .table1 {
@@ -452,6 +464,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 40px;
+    width:100%;
 }
 .footer::before {
     content: "";
@@ -466,36 +479,56 @@
 }
 .footer>.contents {
     position: relative;
-    padding: 80px 40px;
+    padding: 80px 0px;
     text-align: center;
     color:white;
     z-index: 2;
- 
+    width:100%;
+}
+.footer>.contents>p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+}
+.footer>.contents>.mb10 {
+    width:100%
 }
 .reserve {
     position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
+    right: 0;
+    top:350px;
+    width: 50px;
+    
     z-index: 10;
-    min-width: 1000px;
+    
 }
 .reserve>.stay-btn {
     width: 50%;
-    background-color: #e64446;
+    background-color: #eb585b;
     color: #fff;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    transition: background-color .5s ease-out;
+    
+    position: absolute;
+    right: 50%;
+    height:200px;
+    
+}
+.vertical{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position:relative;
+    top: 30px;
 }
 .reserve>.stay-btn:hover {
     background-color: #ee2428;
     color: #fff;
     text-decoration: none;
+    transition: background-color .5s ease-out;
 }
-.reserve>.air-btn {
+/* .reserve>.air-btn {
     width: 50%;
     background-color: #337da0;
     color: #fff;
@@ -509,4 +542,4 @@
     background-color: #057da9;
     color: #fff;
     text-decoration: none;
-}
+} */
