@@ -87,7 +87,7 @@
     }
 }
 .msg{
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -338,8 +338,8 @@
     margin:0 auto;
 }
 .box2>.contents_area{
-    width: 45%;
-    padding: 40px 20px;
+    width: 60%;
+    padding: 40px 10px;
     background-color: #fff;
 }
 .box2>.contents_area .table1 {
@@ -364,7 +364,7 @@
     empty-cells: show;
 }
 .box2>.ph_area{
-    width:60%;
+    width:40%;
     background-color: #fff;
 }
 .box2>.ph_area img:first-child{
@@ -412,11 +412,14 @@
     border: none;
     max-width: 100%;
     margin:0 auto;
+    height:186px;
+    overflow: hidden;
     
 
 }
 .box3>.item>.img-area{
     position: relative;
+    
 }
 .box3>.item>.img-area>.img-area-ttl {
     position: absolute;
@@ -429,11 +432,11 @@
     letter-spacing: -0.05em;
     line-height: .85;
 }
-.box3>.item>.img-area>.img-area-ttl> img{
+/* .box3>.item>.img-area>.img-area-ttl> img{
     vertical-align: middle;
     border: none;
     max-width: 100%;
-} 
+}  */
 .box3>.item>.caption {
     padding: 16px 12px;
     position:relative;
