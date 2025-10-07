@@ -338,7 +338,7 @@
     margin:0 auto;
 }
 .box2>.contents_area{
-    width: 60%;
+    width: 50%;
     padding: 40px 10px;
     background-color: #fff;
 }
@@ -364,7 +364,7 @@
     empty-cells: show;
 }
 .box2>.ph_area{
-    width:40%;
+    width:50%;
     background-color: #fff;
 }
 .box2>.ph_area img:first-child{
@@ -553,4 +553,5 @@
     background-color: #057da9;
     color: #fff;
     text-decoration: none;
+
 } */
