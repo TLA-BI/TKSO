@@ -525,7 +525,7 @@
     position: absolute;
     right: 50%;
     height:200px;
-
+    z-index: 10;
 }
 .vertical{
     writing-mode: vertical-rl;
@@ -554,5 +554,6 @@
     color: #fff;
     text-decoration: none;
 } */
+
 
 
