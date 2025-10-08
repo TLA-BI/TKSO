@@ -30,10 +30,10 @@
 #wrap{
     width: 1200px;
     margin:0 auto;
-   
+
 }
 .main{
-    
+
     width:100%;
     margin:0 auto;
 }
@@ -149,13 +149,13 @@
     margin-top:0;
     max-width: 33%;/* 画像の最大幅を設定します */
     height: auto; /* 画像の縦横比を維持します */
-    
+
 }
 .box1{
     width:1200px;
     margin:0 auto;
     /* position: relative; */
-    
+
 }
 .box1 >.txt-area> P{
     font-size: 80px;
@@ -211,8 +211,8 @@
     position: absolute;
     top:0px;
     left:0px;
-    
-    
+
+
 }
 .acc {
     position: absolute;
@@ -240,7 +240,7 @@
     right:45px;
     bottom:20px;
     color:rgb(255, 255, 255);
-    
+
 }
 .item a{
     text-decoration: none;
@@ -248,7 +248,7 @@
     width: 100%;
     height:330px;
     /* background-color: antiquewhite; */
-    
+
 }
 
 
@@ -278,7 +278,7 @@
 } */
 /* .item a:hover:after{
     opacity:0.9;
-    
+
 } */
 /* Room Type----------end--------------- */
 .facility{
@@ -301,20 +301,20 @@
     display:block;
     mask-size:contain;
     mask-position:center;
-    mask-repeat:no-repeat;   
+    mask-repeat:no-repeat;
 }
 .facility .icon img{
     width:30px;
     height:30px;
     transform: translate(50%, 50%);
-    
+
 }
 
 .contents{
     width:1000px;
     margin:0 auto;
-    
-    
+
+
 }
 .bg1{
     background-color: rgba(33, 13, 89, .1);
@@ -369,7 +369,7 @@
 }
 .box2>.ph_area img:first-child{
     width:100%;
-} 
+}
 .box2 .facility-box .facility img{
     width:30px;
     height:30px;
@@ -391,15 +391,15 @@
     display: flex;
     flex-wrap:wrap;
     gap:20px 10px;
-    
-    
+
+
 }
 .box3 .item{
     width: calc(25% - 8px);
     background-color: #f4f4f4;
     height:100%;
-   
-    
+
+
 }
 .itemh1{
     height:300px;
@@ -414,12 +414,12 @@
     margin:0 auto;
     height:186px;
     overflow: hidden;
-    
+
 
 }
 .box3>.item>.img-area{
     position: relative;
-    
+
 }
 .box3>.item>.img-area>.img-area-ttl {
     position: absolute;
@@ -469,7 +469,7 @@
     letter-spacing: .05em;
     line-height: 1.75;
 }
-.footer {
+.customizeView >.footer {
     position: relative;
     background-image: url(https://tla-bi.github.io/TKSO/Footer_Lobby_Artwork.jpeg);
     background-repeat: no-repeat;
@@ -477,7 +477,7 @@
     margin-bottom: 40px;
     width:100%;
 }
-.footer::before {
+.customizeView >.footer::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -488,7 +488,7 @@
     background-position: 0 0, 2px 2px;
     z-index: 1;
 }
-.footer>.contents {
+.customizeView >.footer>.contents {
     position: relative;
     padding: 80px 0px;
     text-align: center;
@@ -496,12 +496,12 @@
     z-index: 2;
     width:100%;
 }
-.footer>.contents>p {
+.customizeView >.footer>.contents>p {
     font-size: 14px;
     font-weight: bold;
     line-height: 2;
 }
-.footer>.contents>.mb10 {
+.customizeView >.footer>.contents>.mb10 {
     width:100%
 }
 .reserve {
@@ -509,9 +509,9 @@
     right: 0;
     top:350px;
     width: 50px;
-    
+
     z-index: 10;
-    
+
 }
 .reserve>.stay-btn {
     width: 50%;
@@ -521,11 +521,11 @@
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    
+
     position: absolute;
     right: 50%;
     height:200px;
-    
+
 }
 .vertical{
     writing-mode: vertical-rl;
@@ -553,5 +553,4 @@
     background-color: #057da9;
     color: #fff;
     text-decoration: none;
-
 } */
