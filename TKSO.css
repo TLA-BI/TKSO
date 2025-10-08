@@ -505,7 +505,7 @@
     width:100%
 }
 .reserve {
-    position:  absolute;
+    position: fixed;
     right: 0;
     top:550px;
     width: 50px;
@@ -554,4 +554,5 @@
     color: #fff;
     text-decoration: none;
 } */
+
 
