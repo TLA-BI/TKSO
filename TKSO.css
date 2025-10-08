@@ -1,5 +1,5 @@
 .customizeView{
-    position: absolute;
+    position: relative;
     width: 99%;
     min-width: 1200px;
     margin:0 auto;
@@ -554,3 +554,4 @@
     color: #fff;
     text-decoration: none;
 } */
+
