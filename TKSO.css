@@ -510,7 +510,7 @@
     top:350px;
     width: 50px;
 
-    z-index: 10;
+    z-index: 0;
 
 }
 .reserve>.stay-btn {
@@ -554,4 +554,5 @@
     color: #fff;
     text-decoration: none;
 } */
+
 
