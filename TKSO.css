@@ -512,7 +512,7 @@
 .reserve {
     position: fixed;
     right: 0;
-    top:350px;
+    top:550px;
     width: 50px;
 
     z-index: 20;
@@ -559,6 +559,7 @@
     color: #fff;
     text-decoration: none;
 } */
+
 
 
 
