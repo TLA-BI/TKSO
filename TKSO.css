@@ -194,6 +194,9 @@
     height:100%;
     overflow: hidden;
     position: relative;
+    border:1 solid;
+    border-color:white;
+    border-collapse: collapse;
     /* height:330px; */
 }
 
@@ -555,6 +558,7 @@
     color: #fff;
     text-decoration: none;
 } */
+
 
 
 
