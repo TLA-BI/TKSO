@@ -185,6 +185,7 @@
     width:100%;
     margin:0 auto;
     background-color: white;
+    border-collapse:separate;
 }
 
 .link1 table tr td{
@@ -554,6 +555,7 @@
     color: #fff;
     text-decoration: none;
 } */
+
 
 
 
